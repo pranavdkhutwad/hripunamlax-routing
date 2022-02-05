@@ -1,0 +1,18 @@
+<div class="container mt-3">
+    <div class="card">
+        <div class="card-header">Login</div>
+        <div class="card-body">
+            <form>
+            <div class="mb-3">
+                <input name="username" type="text" [(ngModel)]="username" class="form-control" placeholder="username" />
+            </div>
+            <div class="mb-3">
+                <input name="password" type="password" [(ngModel)]="password" class="form-control" placeholder="password" />
+            </div>
+            <div>
+                <button (click)="login()" class="btn btn-success btn-block" type="button">Sign In</button>
+            </div>
+        </form>
+        </div>
+    </div>
+</div>
